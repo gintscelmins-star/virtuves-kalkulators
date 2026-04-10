@@ -12,9 +12,8 @@ export default function Step5Contact() {
   }
   if(s.submitted) return(
     <div className="text-center py-12">
-      <div className="text-5xl mb-4">✅</div>
+      <div className="text-6xl mb-4">✅</div>
       <h2 className="text-2xl font-bold text-gray-900 mb-2">{t("step5.success")}</h2>
-      <p className="text-gray-500">Lead ID: #{s.leadId}</p>
     </div>
   );
   return(
@@ -25,10 +24,10 @@ export default function Step5Contact() {
           <div><label className="block text-sm font-medium text-gray-700 mb-1">{t("step5.name")} *</label><input required className="step-input" value={s.name} onChange={e=>s.setField("name",e.target.value)} placeholder="Jānis Bērziņš"/></div>
           <div><label className="block text-sm font-medium text-gray-700 mb-1">{t("step5.phone")} *</label><input required type="tel" className="step-input" value={s.phone} onChange={e=>s.setField("phone",e.target.value)} placeholder="+371 2x xxx xxx"/></div>
         </div>
-        <div><label className="block text-sm font-medium text-gray-700 mb-1">{t("step5.email")}</label><input type="email" className="step-input" value={s.email} onChange={e=>s.setField("email",e.target.value)} placeholder="jānis@gmail.com"/></div>
+        <div><label className="block text-sm font-medium text-gray-700 mb-1">{t("step5.email")}</label><input type="email" className="step-input" value={s.email} onChange={e=>s.setField("email",e.target.value)} placeholder="janis@gmail.com"/></div>
         <div><label className="block text-sm font-medium text-gray-700 mb-1">{t("step5.comment")}</label><textarea rows={3} className="step-input resize-none" value={s.comment} onChange={e=>s.setField("comment",e.target.value)}/></div>
         {error&&<p className="text-red-500 text-sm">{t("step5.error")}</p>}
-        <button type="submit" disabled={loading||!s.canAdvance()} className="btn-primary w-full text-center">{loading?t("step5.submitting"):t("step5.submit")}</button>
+        <button type="submit" disabled={loading||!s.canAdvance()} className="btn-primary w-full">{loading?t("step5.submitting"):t("step5.submit")}</button>
       </form>
     </div>
   );

@@ -7,10 +7,11 @@ export function useLeads() {
     try {
       const{data,error:e}=await supabase.from("leads").insert({
         name:w.name, phone:w.phone, email:w.email||null, language:w.language,
-        configuration:{ planType:w.planType, apartmentTypeId:w.apartmentTypeId, kitchenShape:w.kitchenShape,
-          facadeStyle:w.facadeStyle, facadeMaterial:w.facadeMaterial, corpusMaterial:w.corpusMaterial,
+        configuration:{ planType:w.planType, apartmentTypeId:w.apartmentTypeId,
+          kitchenShape:w.kitchenShape, facadeStyle:w.facadeStyle,
+          facadeMaterial:w.facadeMaterial, corpusMaterial:w.corpusMaterial,
           surfaceMaterial:w.surfaceMaterial, fridgeType:w.fridgeType,
-          waterPoint:w.waterPoint, fridgePosition:w.fridgePosition, stovePosition:w.stovePosition, ovenPosition:w.ovenPosition },
+          waterPoint:w.waterPoint, stovePosition:w.stovePosition, ovenPosition:w.ovenPosition },
         estimated_price:price?.total||null, status:"new", notes:w.comment||null
       }).select().single();
       if(e)throw e; return data;

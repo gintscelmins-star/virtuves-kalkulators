@@ -19,13 +19,13 @@ export default function CalculatorPage() {
         <StepProgress/>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
-            <div className="card min-h-[480px]"><StepComponent/></div>
+            <div className="card min-h-96"><StepComponent/></div>
             <div className="flex gap-3 mt-6">
               {currentStep>1&&<button onClick={prevStep} className="btn-secondary">{t("back")}</button>}
               {currentStep<5&&<button onClick={nextStep} disabled={!canAdvance()} className="btn-primary ml-auto">{t("next")}</button>}
             </div>
           </div>
-          <div className="lg:col-span-1"><PricePanel/></div>
+          <div><PricePanel/></div>
         </div>
       </div>
     </div>

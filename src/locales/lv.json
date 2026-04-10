@@ -7,15 +7,15 @@
     "subtitle": "Kāds ir jūsu dzīvokļa tips?",
     "serija": "Sērijveida dzīvoklis",
     "brivajs": "Brīvais plānojums",
-    "serija_desc": "Izvēlieties no Latvijas tipveida sērijām",
-    "brivajs_desc": "Ievadiet telpas izmērus manuāli",
-    "width_label": "Virtuves platums (cm)",
+    "serija_desc": "Latvijas tipveida sērijas",
+    "brivajs_desc": "Ievadiet izmērus manuāli",
+    "width_label": "Platums (cm)",
     "depth_label": "Dziļums (cm)",
     "height_label": "Augstums (cm)"
   },
   "step2": {
     "title": "Virtuves forma",
-    "subtitle": "Izvēlies virtuves izvietojumu",
+    "subtitle": "Izvēlies izvietojumu",
     "taisna": "Taisna",
     "L": "L-veida",
     "U": "U-veida",
@@ -23,19 +23,19 @@
     "taisna_desc": "Gar vienu sienu",
     "L_desc": "Divās sienās",
     "U_desc": "Trīs sienās",
-    "sala_desc": "Ar centrālo salu"
+    "sala_desc": "Centrālā sala"
   },
   "step3": {
     "title": "Tehnikas izvietojums",
-    "subtitle": "Klikšķini uz plāna lai atzīmētu iekārtu vietas",
+    "subtitle": "Klikšķini uz zonas lai atzīmētu",
     "water": "Ūdensvads",
-    "stove": "Plīts virsma",
+    "stove": "Plīts",
     "oven": "Cepeškrāsns",
     "fridge": "Ledusskapis",
     "fridge_iebuvejams": "Iebūvējams",
     "fridge_atsevisks": "Atsevišķs",
-    "click_to_place": "Klikšķini uz plāna lai atzīmētu",
-    "placed": "Atzīmēts"
+    "click_to_place": "Aktīvais elements",
+    "placed": "✓"
   },
   "step4": {
     "title": "Stils un materiāli",
@@ -51,7 +51,7 @@
   },
   "step5": {
     "title": "Kontaktinformācija",
-    "subtitle": "Sagatavosim precīzu piedāvājumu 24h laikā",
+    "subtitle": "Sagatavosim piedāvājumu 24h laikā",
     "name": "Vārds",
     "phone": "Tālrunis",
     "email": "E-pasts (neobligāts)",
@@ -77,6 +77,5 @@
     "5": "Kontakti"
   },
   "next": "Tālāk",
-  "back": "Atpakaļ",
-  "loading": "Ielādē..."
+  "back": "Atpakaļ"
 }

@@ -10,7 +10,7 @@ export default function AdminLogin() {
   return(
     <div className="min-h-screen bg-stone-50 flex items-center justify-center">
       <div className="card w-full max-w-sm">
-        <h1 className="text-xl font-bold mb-6 text-center">Admin Login</h1>
+        <h1 className="text-xl font-bold mb-6 text-center">Admin</h1>
         <form onSubmit={handleLogin} className="space-y-4">
           <input type="email" required className="step-input" placeholder="E-pasts" value={email} onChange={e=>setEmail(e.target.value)}/>
           <input type="password" required className="step-input" placeholder="Parole" value={pass} onChange={e=>setPass(e.target.value)}/>
