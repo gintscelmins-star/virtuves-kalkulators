@@ -1,0 +1,82 @@
+{
+  "nav": {
+    "title": "Virtuves kalkulators"
+  },
+  "step1": {
+    "title": "Izvēlies telpu",
+    "subtitle": "Kāds ir jūsu dzīvokļa tips?",
+    "serija": "Sērijveida dzīvoklis",
+    "brivajs": "Brīvais plānojums",
+    "serija_desc": "Izvēlieties no Latvijas tipveida sērijām",
+    "brivajs_desc": "Ievadiet telpas izmērus manuāli",
+    "width_label": "Virtuves platums (cm)",
+    "depth_label": "Dziļums (cm)",
+    "height_label": "Augstums (cm)"
+  },
+  "step2": {
+    "title": "Virtuves forma",
+    "subtitle": "Izvēlies virtuves izvietojumu",
+    "taisna": "Taisna",
+    "L": "L-veida",
+    "U": "U-veida",
+    "sala": "Ar salu",
+    "taisna_desc": "Gar vienu sienu",
+    "L_desc": "Divās sienās",
+    "U_desc": "Trīs sienās",
+    "sala_desc": "Ar centrālo salu"
+  },
+  "step3": {
+    "title": "Tehnikas izvietojums",
+    "subtitle": "Klikšķini uz plāna lai atzīmētu iekārtu vietas",
+    "water": "Ūdensvads",
+    "stove": "Plīts virsma",
+    "oven": "Cepeškrāsns",
+    "fridge": "Ledusskapis",
+    "fridge_iebuvejams": "Iebūvējams",
+    "fridge_atsevisks": "Atsevišķs",
+    "click_to_place": "Klikšķini uz plāna lai atzīmētu",
+    "placed": "Atzīmēts"
+  },
+  "step4": {
+    "title": "Stils un materiāli",
+    "subtitle": "Izvēlies fasādes un korpusa materiālus",
+    "facade_style": "Fasādes stils",
+    "facade_material": "Fasādes materiāls",
+    "corpus_material": "Korpusa materiāls",
+    "surface_material": "Virsmas materiāls",
+    "modern": "Moderns",
+    "classic": "Klasisks",
+    "minimal": "Minimālistisks",
+    "nordic": "Skandināvu"
+  },
+  "step5": {
+    "title": "Kontaktinformācija",
+    "subtitle": "Sagatavosim precīzu piedāvājumu 24h laikā",
+    "name": "Vārds",
+    "phone": "Tālrunis",
+    "email": "E-pasts (neobligāts)",
+    "comment": "Komentārs",
+    "submit": "Saņemt piedāvājumu",
+    "submitting": "Sūta...",
+    "success": "Paldies! Sazināsimies 24h laikā.",
+    "error": "Kļūda. Mēģiniet vēlreiz."
+  },
+  "price": {
+    "title": "Aptuvena cena",
+    "materials": "Materiāli",
+    "installation": "Montāža (15%)",
+    "vat": "PVN (21%)",
+    "total": "Kopā",
+    "disclaimer": "Cena ir indikatīva"
+  },
+  "nav_steps": {
+    "1": "Telpa",
+    "2": "Forma",
+    "3": "Izvietojums",
+    "4": "Stils",
+    "5": "Kontakti"
+  },
+  "next": "Tālāk",
+  "back": "Atpakaļ",
+  "loading": "Ielādē..."
+}
